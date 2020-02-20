@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <span>My Application</span>
+  <span class="example-spacer"></span>
+  <a routerLink="/rss" class="menu">RSS</a>
+  <a routerLink="/task" class="menu">TASK</a>
+</mat-toolbar>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+
+<!-- <app-rss></app-rss>
+
+<hr>
+
+<app-task></app-task>
+
+<hr>
+
+<p style="margin: 100px;">
+  <app-feed-card *ngFor="let feed of feeds" [feed]="feed"></app-feed-card>
+</p> -->

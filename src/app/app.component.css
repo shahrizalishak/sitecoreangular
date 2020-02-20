@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .menu{
+      padding: 10px 15px;
+      text-decoration: none;
+      color:royalblue;
+  }
+  .content{
+      padding: 15px 20px;
+  }
